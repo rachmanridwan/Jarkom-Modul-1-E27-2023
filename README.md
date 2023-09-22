@@ -36,6 +36,10 @@ Penyelesaian Soal
 # Soal 4
 Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 
+Penyelesaian Soal :
+Untuk mendapatkan nilai checksum dapat dilihat pada paket yang diinginkan pada bagian header UDP paket.
+![no.4](./assets/soal4/no4.png)
+Pada gambar, terlihat bahwa nilai checksum pada paket 130 adalah <ins>**0x18e5**<ins>
 # Soal 5
 Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
 
