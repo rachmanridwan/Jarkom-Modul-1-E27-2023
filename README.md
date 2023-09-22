@@ -11,6 +11,11 @@
 # Soal 3
 # Soal 4
 # Soal 5
+Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
+a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
+b. Port berapakah pada server yang digunakan untuk service SMTP?
+c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
+
 # Soal 6
 # Soal 7
 # Soal 8
