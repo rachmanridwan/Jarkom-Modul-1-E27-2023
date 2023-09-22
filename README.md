@@ -25,6 +25,7 @@ Penyelesaian Soal : Pertama kita filter protokol yang menggunakan http, kemudian
 
 ![image](https://cdn.discordapp.com/attachments/945203039034306570/1154726293619875920/image.png)
 
+![image](https://cdn.discordapp.com/attachments/883930711290171432/1154773901772070995/image.png)
 # Soal 3
 Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
 
@@ -49,7 +50,7 @@ Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk men
 - terdapat perintah untuk mendecode sebuah kode ke base64, setelah didecode hasilnya adalah "5implePas5word", kode tersebut digunakan untuk membuka file zip. 
 ![image](https://cdn.discordapp.com/attachments/945203039034306570/1154740343078666240/image.png)
 ![image](https://cdn.discordapp.com/attachments/945203039034306570/1154740609400197180/image.png)
-
+![image](https://cdn.discordapp.com/attachments/883930711290171432/1154774305159249970/Screenshot_from_2023-09-22_20-39-38.png)
 
 kemudian kita masukkan instance dalam file untuk menjawab soal
 - Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
@@ -75,10 +76,13 @@ karena format ip sangat membingungkan maka semua digabung 1041814101, berhubunga
 
 Disini kita tinggal mengubah angka tersebut ke huruf sehingga menjadi JDRNJA
 
+![image](https://cdn.discordapp.com/attachments/883930711290171432/1154770421116309616/image.png)
+
 # Soal 7
 Berapa jumlah packet yang menuju IP 184.87.193.88?
 - menggunakan filter `ip.dst == 184.87.193.88` , kemudian kita lihat berapa banyak packet yang tampil, yakni sebanyak 6 packet
 ![image](https://cdn.discordapp.com/attachments/945203039034306570/1154726660990570496/image.png)
+![image](https://cdn.discordapp.com/attachments/883930711290171432/1154774305406722088/Screenshot_from_2023-09-22_20-39-55.png)
 
 # Soal 8
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
@@ -86,6 +90,7 @@ Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yan
 
 ![image](https://cdn.discordapp.com/attachments/945203039034306570/1154747359159386163/image.png)
 
+![image](https://cdn.discordapp.com/attachments/883930711290171432/1154774305700319243/Screenshot_from_2023-09-22_20-40-07.png)
 
 # Soal 9
 Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
