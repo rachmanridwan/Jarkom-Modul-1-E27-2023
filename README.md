@@ -56,7 +56,7 @@ Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk men
 - terdapat perintah untuk mendecode sebuah kode ke base64, setelah didecode hasilnya adalah "5implePas5word", kode tersebut digunakan untuk membuka file zip. 
 ![image](https://cdn.discordapp.com/attachments/945203039034306570/1154740343078666240/image.png)
 ![image](https://cdn.discordapp.com/attachments/945203039034306570/1154740609400197180/image.png)
-![image](https://cdn.discordapp.com/attachments/883930711290171432/1154774305159249970/Screenshot_from_2023-09-22_20-39-38.png)
+
 
 kemudian kita masukkan instance dalam file untuk menjawab soal
 - Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
@@ -67,6 +67,7 @@ kemudian kita buka stream pada protokol SMTP, terlihat bahwa port yang digunakan
 server yang digunakan memiliki ip publik yakni 74.53.140.153
 
 ![image](https://cdn.discordapp.com/attachments/945203039034306570/1154743021993205820/image.png)
+![image](https://cdn.discordapp.com/attachments/883930711290171432/1154774305159249970/Screenshot_from_2023-09-22_20-39-38.png)
 
 # Soal 6
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
