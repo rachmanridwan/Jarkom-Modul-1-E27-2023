@@ -4,7 +4,7 @@
 | No.  | Nama Anggota       | NRP          |
 |------|--------------------|--------------|
 | 1    |Rachman Ridwan           | 5025201061   |
-| 2    | Akmal Nafis         | 502521   |
+| 2    | Akmal Nafis         | 5025211216   |
 
 # Soal 1
 User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.
