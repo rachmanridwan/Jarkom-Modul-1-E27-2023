@@ -38,6 +38,14 @@ Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 
 # Soal 5
 Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
+
+- Pertama kita menganalisis paket pada file, kemudian laukan Stream kemudian follow pada paket tcp
+
+![image](https://cdn.discordapp.com/attachments/945203039034306570/1154738624982700083/image.png)
+- terdapat perintah untuk mendecode sebuah kode ke base64, setelah didecode hasilnya adalah "5implePas5word", kode tersebut digunakan untuk membuka file zip. 
+![image](https://cdn.discordapp.com/attachments/945203039034306570/1154740343078666240/image.png)
+![image](https://cdn.discordapp.com/attachments/945203039034306570/1154740609400197180/image.png)
+kemudian kita masukkan instance dalam file untuk menjawab soal
 a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
 b. Port berapakah pada server yang digunakan untuk service SMTP?
 c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
