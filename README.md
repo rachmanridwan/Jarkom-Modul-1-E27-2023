@@ -9,17 +9,21 @@
 # Soal 1
 User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.
 
-a. Berapakah sequence number (raw) pada packet yang menunjukkan aktivitas tersebut?
+Penyelesaian Soal :
+Setelah membuka soal pada Wireshark, Lakukan filter dengan pencarian "FTP". Untuk mencari User yang melakukan kegiatan mengunggah, Gunakan keyword "STOR"
 
-b. Berapakah acknowledge number (raw) pada packet yang menunjukkan aktivitas tersebut? 
+a. Berapakah sequence number (raw) pada packet yang menunjukkan aktivitas tersebut?
+b. Berapakah acknowledge number (raw) pada packet yang menunjukkan aktivitas tersebut?
+
+Dari paket yang kita dapatkan setelah filtering, Kita analisis pada tampilan layer TCP. Tampilan ini menunjukkan jawaban pada soal a dan b 
+![no.1](./assets/no1part1.png)
 
 c. Berapakah sequence number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
-
 d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
 
-Penyelesaian Soal :
-![no.1](./assets/no1part1.png)
+Dari paket sebelumnya yaitu paket 147 kita dapat melihat paket response request, Dimana tertuju pada paket 149. Sama halnya pada paket 147, Pada tampilan TCP paket 149 terdapat sequence dan acknowlede number yang kita inginkan.
 ![no.1](./assets/no1part2.png)
+
 # Soal 2
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 
@@ -31,12 +35,17 @@ Penyelesaian Soal : Pertama kita filter protokol yang menggunakan http, kemudian
 # Soal 3
 Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
 
-a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
-
-b. Protokol layer transport apa yang digunakan?
-
 Penyelesaian Soal :
+a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
+Untuk mencari banyak paket dengan IP source atau destination dengan port pada soal dapat dilakukan filter dengan perintah berikut :
+```
+ip.addr == 239.255.255.250 && (tcp.port == 3702 or udp.port == 3702)
+```
+Filter diatas berfungsi untuk mendapatkan semua IP yang berasal dan menuju port dengan filter <code>ip.addr == 239.255.255.250</code>. Karena hanya terdapat dua macam transport layer dari port (UDP dan TCP), Maka dengan tambahan <code>tcp.port == 3702 || udp.port == 3702</code> kita akan mendapatkan apa yang diminta pada soal
 ![no.3](./assets/no3.png)
+b. Protokol layer transport apa yang digunakan?
+Pada filterisasi diatas, Protokol yang digunakan dapat terlihat pada tampilan display, Yaitu protokol UDP.
+
 # Soal 4
 Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 
@@ -103,9 +112,17 @@ Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yan
 Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
 
 Penyelesaian Soal :
+Lakukan query sebagai berikut :
+```
+ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
+```
+Solusi pada soal no.9 adalah filter dengan memainkan comparison operator pada kedua IP. Karena yang diminta pada soal adalah "berasal dari alamat <code>10.51.40.1</code> tetapi tidak menuju alamat <code>10.39.55.34</code>, Penggunaan operatornya yaitu "==" dan "!=". Dan karena keduanya harus dipenuhi maka dengan logical operator "&&" kita akan menjawab soal ini.
 ![no.9](./assets/no9.png)
+
 # Soal 10
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
 
 Penyelesaian Soal :
+Kita dapat melakukan filtering dengan keywords "Telnet". Pada TCP follow stream tertera informasi kredensial login dhafin beserta passwordnya. Hal ini bisa lebih cepat dengan filter keywords "Telnet contains login"
 ![no.10](./assets/no10.png)
+
