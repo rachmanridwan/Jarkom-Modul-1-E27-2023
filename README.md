@@ -64,6 +64,13 @@ server yang digunakan memiliki ip publik yakni 74.53.140.153
 # Soal 6
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
 
+Jawab
+- Pertama kita menganalisis "server SOURCE ADDRESS 7812 is invalid", 7812 merupakan nomor packet, source address merupakan ip source yakni 104.18.14.101. Kemudian kita harus mengetahui pola a1 e5 dan u21, pola tersebut adalah posisi huruf dalam alfabet A=1 E=5 DAN U=21.
+karena format ip sangat membingungkan maka semua digabung 1041814101, berhubungan dengan kode sebelumnya maka angka tersebut harus kurang dari 27, sehingga jika dipisah menjadi 
+`10 4 18 14 10 1`
+
+Disini kita tinggal mengubah angkatersebut menjadi huruf JDRNJA
+
 # Soal 7
 Berapa jumlah packet yang menuju IP 184.87.193.88?
 - menggunakan filter `ip.dst == 184.87.193.88` , kemudian kita lihat berapa banyak packet yang tampil, yakni sebanyak 6 packet
