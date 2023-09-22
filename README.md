@@ -83,7 +83,7 @@ karena format ip sangat membingungkan maka semua digabung 1041814101, berhubunga
 
 Disini kita tinggal mengubah angka tersebut ke huruf sehingga menjadi JDRNJA
 
-![image](https://cdn.discordapp.com/attachments/883930711290171432/1154770421116309616/image.png)
+![image](https://cdn.discordapp.com/attachments/945203039034306570/1154771942109356093/image.png)
 
 # Soal 7
 Berapa jumlah packet yang menuju IP 184.87.193.88?
