@@ -55,7 +55,7 @@ kemudian kita buka stream pada protokol SMTP, terlihat bahwa port yang digunakan
 - Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
 server yang digunakan memiliki ip publik yakni 74.53.140.153
 
-!  [image](https://cdn.discordapp.com/attachments/945203039034306570/1154743021993205820/image.png)
+![image](https://cdn.discordapp.com/attachments/945203039034306570/1154743021993205820/image.png)
 
 # Soal 6
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
