@@ -18,6 +18,8 @@ c. Berapakah sequence number (raw) pada packet yang menunjukkan response dari ak
 d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
 
 Penyelesaian Soal :
+![no.1](./assets/no1part1.png)
+![no.1](./assets/no1part2.png)
 # Soal 2
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 
@@ -33,14 +35,18 @@ a. Berapa banyak paket yang tercapture dengan IP source maupun destination addre
 
 b. Protokol layer transport apa yang digunakan?
 
-Penyelesaian Soal
+Penyelesaian Soal :
+![no.3](./assets/no3.png)
 # Soal 4
 Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 
 Penyelesaian Soal :
 Untuk mendapatkan nilai checksum dapat dilihat pada paket yang diinginkan pada bagian header UDP paket.
-![no.4](./assets/soal4/no4.png)
+
+![no.4](./assets/no4.png)
+
 Pada gambar, terlihat bahwa nilai checksum pada paket 130 adalah <ins>**0x18e5**<ins>
+
 # Soal 5
 Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
 
@@ -95,5 +101,10 @@ Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yan
 # Soal 9
 Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
 
+Penyelesaian Soal :
+![no.9](./assets/no9.png)
 # Soal 10
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
+
+Penyelesaian Soal :
+![no.10](./assets/no10.png)
