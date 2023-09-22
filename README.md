@@ -21,7 +21,9 @@ Penyelesaian Soal :
 # Soal 2
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 
-Penyelesaian Soal :
+Penyelesaian Soal : Pertama kita filter protokol yang menggunakan http, kemudian mencari kode 200 dari source ip server, kemudian kita buka protokol httpnya dan mengecek header yang ada didalamnya, terlihat bahwa web server yang digunakan adalah gunicorn
+
+![image](https://cdn.discordapp.com/attachments/945203039034306570/1154726293619875920/image.png)
 
 # Soal 3
 Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
